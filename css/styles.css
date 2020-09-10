@@ -694,6 +694,7 @@ section {
   /*display: inline-block;*/
   display: block;
   margin-bottom: 15px;
+  margin-left: 25px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -920,7 +921,7 @@ header {
 
 .podpuska-text {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
