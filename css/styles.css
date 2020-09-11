@@ -1027,9 +1027,10 @@ header {
   width: 16px;
   height: 15px;
   margin-right: 8px;
-  margin-left: 12px;
-  background-image: url(./images/icon.svg), url(./images/icon-check.svg);
+ /* margin-left: 12px;*/
+  background-image: url(../images/icon.svg), url(../images/icon-check.svg);
   background-size: contain, 0;
+  background-repeat: no-repeat;
 }
 
 .modal-form-check:checked+.modal-form-check-label::before {
