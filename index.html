@@ -401,7 +401,7 @@
           <button type="submit" class="podpuska-button">
             Подписаться
             <svg class="podpuska-button-icon" width="24" height="24">
-              <use href="./images/sprite.svg#icon-send"></use>
+              <use href="./images/modall-defs.svg#icon-Vector-17"></use>
             </svg>
           </button>
         </form>
@@ -420,6 +420,58 @@
           <use href="./images/modalnoe-okno.svg#icon-Form-bg"></use>
         </svg>
       </button>
+
+      <form action="" class="modal-form">
+        <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
+
+        <label for="user-name" class="modal-form-input-label">Имя</label>
+        <div class="modal-form-input-block">
+          <input type="text" id="user-name" name="user-name" class="modal-form-input" required />
+          <svg class="modal-form-input-svg" width="18" height="18">
+            <use href="./images/modal-sprite.svg#icon-person"></use>
+          </svg>
+        </div>
+
+        <label for="user-tel" class="modal-form-input-label">Телефон</label>
+        <div class="modal-form-input-block">
+          <input type="tel" id="user-tel" name="user-tel" class="modal-form-input" required />
+          <svg class="modal-form-input-svg" width="18" height="18">
+            <use href="./images/modal-sprite.svg#icon-phone"></use>
+          </svg>
+        </div>
+
+        <label for="user-email" class="modal-form-input-label">Почта</label>
+        <div class="modal-form-input-block">
+          <input type="email" id="user-email" name="user-email" class="modal-form-input" />
+          <svg class="modal-form-input-svg" width="18" height="18">
+            <use href="./images/modal-sprite.svg#icon-email"></use>
+          </svg>
+        </div>
+
+        <label for="user-message" class="modal-form-message-label">Комментарий</label>
+        <textarea
+                name="user-message"
+                id="user-message"
+                placeholder="Введите текст"
+                class="modal-form-message"
+        ></textarea>
+
+        <input
+                type="checkbox"
+                name="user-policy"
+                id="user-policy"
+                class="modal-form-check visually-hidden"
+                required
+        />
+        <label for="user-policy" class="modal-form-check-label">
+          <span>Соглашаюсь с рассылкой и принимаю <a href="#"> Условия договора </a></span>
+        </label>
+
+        <button type="submit" class="modal-form-btn">Отправить</button>
+      </form>
+    </div>
+  </div>
+
     </div>
   </div>
 
