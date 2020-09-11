@@ -923,16 +923,17 @@ header {
   padding: 40px;
 }
 
-.modal-form-title {
+.modal-form-title {  /* заглавие оставьте свои данные, мы вам перезвоним*/
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   margin-bottom: 12px;
 
   color: var(--title-text-color);
+
 }
 
-.modal-form-input:focus,
+.modal-form-input:focus,  /*нажимая кнопку поля формы меняют цвет на синий*/
 .modal-form-message:focus,
 .knopka-modal:focus {
   outline: none;
@@ -944,7 +945,7 @@ header {
   margin-bottom: 10px;
 }
 
-.modal-form-input {
+.modal-form-input {    /* параметры ввода текста в поля формы при заполнении*/
   width: 100%;
   height: 40px;
   padding-left: 42px;
@@ -952,10 +953,11 @@ header {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  color: var(--title-text-color); /*цвет ввода текста в поля формы при заполнении*/
 }
 
 .modal-form-input-label,
-.modal-form-message-label {
+.modal-form-message-label {  /*обрамление полей формы*/
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
